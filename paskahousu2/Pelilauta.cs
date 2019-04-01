@@ -49,7 +49,7 @@ namespace paskahousu2
             {
                 Top = 10,
                 Left = 550, // 140
-                Image = (Bitmap)Image.FromFile("kuvat\\tausta.png"),
+                Image = (Bitmap)Image.FromFile("..\\..\\kuvat\\tausta.png"),
                 Width = 120,
                 Height = 220,
                 SizeMode = PictureBoxSizeMode.StretchImage,
@@ -244,7 +244,7 @@ namespace paskahousu2
                 {
                     Top = (300 + (randomi.Next(-60, 60))),
                     Left = (580 + (randomi.Next(-50, 50))), // 140
-                    Image = (Bitmap)Image.FromFile("kuvat\\" + k.Nimi() + ".png"),
+                    Image = (Bitmap)Image.FromFile("..\\..\\kuvat\\" + k.Nimi() + ".png"),
                     Width = 120,
                     Height = 220,
                     SizeMode = PictureBoxSizeMode.StretchImage,
@@ -296,7 +296,7 @@ namespace paskahousu2
                 {
                     Top = 10 + (rivit * 90),
                     Left = 10 + (70 * rundi) + (rundi) * 10, // 140
-                    Image = (Bitmap)Image.FromFile("kuvat\\" + ko.Nimi() + ".png"),
+                    Image = (Bitmap)Image.FromFile("..\\..\\kuvat\\" + ko.Nimi() + ".png"),
                     Width = 120,
                     Height = 220,
                     SizeMode = PictureBoxSizeMode.StretchImage,
